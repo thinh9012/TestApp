@@ -1,0 +1,16 @@
+[
+	{
+		"classify":"block1",
+		"items":[
+			{"en":"en_name1","vi":"vi_name1"},
+			{"en":"en_name2","vi":"vi_name2"}
+		]
+	},
+	{
+		"classify":"block2",
+		"items":[
+			{"en":"en_name1","vi":"vi_name1"},
+			{"en":"en_name2","vi":"vi_name2"}
+		]
+	}
+]
