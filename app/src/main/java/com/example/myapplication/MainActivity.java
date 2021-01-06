@@ -46,14 +46,15 @@ public class MainActivity extends AppCompatActivity {
         this.imageButton.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View view) {
-                Intent mainActivity2 = new Intent(MainActivity.this, MainActivity2.class);
-
-                // Set param
-                mainActivity2.putExtra("strParam1", "Thịnh value1");
-                mainActivity2.putExtra("strParam2", "Thịnh value2");
-
-                // Start main 2
-                MainActivity.this.startActivity(mainActivity2);
+//                MainActivity.this.imageButton.setImageResource(R.drawable.vn);
+//                Intent mainActivity2 = new Intent(MainActivity.this, MainActivity2.class);
+//
+//                // Set param
+//                mainActivity2.putExtra("strParam1", "Thịnh value1");
+//                mainActivity2.putExtra("strParam2", "Thịnh value2");
+//
+//                // Start main 2
+//                MainActivity.this.startActivity(mainActivity2);
             }
         });
     }
